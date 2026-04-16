@@ -1,11 +1,14 @@
 # Simple Server API - HNG
 
 ## Overview
+
 A simple Express API deployed with Nginx reverse proxy.
 
 ## Local Setup
 
 ```bash
+git clone <repo>
+cd <repo>
 npm install
 node index.js
 ```
@@ -19,34 +22,28 @@ http://localhost:5000
 GET /
 
 ```json
-
 { "message": "API is running" }
-
 ```
 
 GET /health
 
 ```json
-
 { "message": "healthy" }
-
 ```
 
 GET /me
 
 ```json
-
 {
   "name": "Oluwaseyi Idowu",
   "email": "idowuseyi22@gmail.com",
   "github": "https://github.com/idowuseyi"
 }
-
 ```
 
 ## Live URL
-https://devops-one.theraptly.com/
 
+https://devops-one.theraptly.com/
 
 ---
 
